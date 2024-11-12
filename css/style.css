@@ -1,0 +1,53 @@
+/*//////////////////////////////////////////////////////////
+                          GERAL
+/////////////////////////////////////////////////////////*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 0.390625vw);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*//////////////////////////////////////////////////////////
+                          TOPO
+/////////////////////////////////////////////////////////*/
+header{
+    background-color: #3B8686;
+    padding: 20px 10vw 20px 10vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 12px 12px 12px 12px;
+}
+header nav ul li a.home{
+    background: rgba(255, 255, 255, 0.2); /*transparencia*/
+    padding: 5px 22px 5px 22px;
+    border-radius: 20px;
+}
+/*//////////////////////////////////////////////////////////
+                        CONTEÚDO
+/////////////////////////////////////////////////////////*/
+section.banner{
+    padding: 15vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../img/back-banner.png) no-repeat center center; /*ajustar banner*/
+    background-size: cover;
+}
+section.banner h2{
+    font-size: 3rem;
+    background: rgba(59, 134, 134, 0.5);
+    color: white;
+    width: 35%;
+    padding: 10px 20px 10px 20px;
+}
+section.servicos ul{
+    display: flex;
+}
