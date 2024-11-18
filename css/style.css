@@ -48,6 +48,96 @@ section.banner h2{
     width: 35%;
     padding: 10px 20px 10px 20px;
 }
+section.servicos {
+    padding: 3vw 10vw 3vw 10vw;
+}
 section.servicos ul{
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.servicos ul li{
+    width: 25%;   
+}
+section.servicos ul li span{
+    font-size: 3rem;
+    color: #3B8686;
+}
+section.servicos h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+section.servicos ul li p{
+    color: #747474;
+}
+section.servicos ul li a{
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+}
+section.atividade {
+    padding: 8vw 10vw 8vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../img/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.atividade ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.atividade ul li{
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+section.possibilidades {
+    display: flex;
+    justify-content: space-between;
+    padding: 8vw 10vw 8vw 10vw;
+}
+section.possibilidades div.esquerda{
+    width: 40%;
+
+}
+section.possibilidades div.informacao h2{
+    color: #0B486B;
+    font-size: 2rem;
+    margin: 0 0 2vw 0;
+}
+section.possibilidades div.informacao p.text{
+    color: #747474;
+}
+
+section.possibilidades div.informacao p a{
+    padding: 10px 20px 10px 20px;
+    background-color: #0B486B;
+    display: inline-block;
+    margin: 20px 8px 20px 8px;
+}
+/*//////////////////////////////////////////////////////////
+                          RODAPÉ
+/////////////////////////////////////////////////////////*/
+footer {
+    padding: 5vw 10vw 5vw 10vw;
+    background-color: #3B8686;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+footer div.sociais ul{
+    display: flex;
+    font-size: 2rem;
+   
+}
+footer div.sociais ul li {
+    margin: 0 15px 15px 0 ;
+}
+footer div.contato h3{
+    font-weight: bold;
+}
+footer div.contato ul{
+    padding: 20px 0 0 0;
 }
